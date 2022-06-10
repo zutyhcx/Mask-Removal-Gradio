@@ -1,0 +1,19 @@
+asposestorage==1.0.2 # trainers/stylegan2_trainer.py
+torch==1.11.0 # trainers/stylegan2_trainer.py
+pytorch_fid # ==0.2.1 train.py
+dominate==2.6.0 # util/html.py
+numpy (>=1.8) # 1.22.4 util/iter_counter
+dill==0.3.5.1 #util/util.py
+Pillow==9.1.1 #util/util.py
+scipy==1.7.3 # 1.8.1 util/visualizer.py
+tensorflow==2.9.1 # ==2.7.0 util/visualizer.py
+facenet_pytorch==2.5.2 # cam_comodgan_pytorch.py
+streamlit==1.10.0 # cam_comodgan_pytorch.py
+torchvision==0.12.0 # cam_comodgan_pytorch.py
+options # ==1.4.10 train.py
+tqdm==4.64.0 # test.py
+data==0.4 # train.py
+logger==1.4 # train.py
+opencv-python-headless #opencv_python==4.5.5.64
+av==9.2.0 # comod
+streamlit_webrtc==0.40.0 #  comod
