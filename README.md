@@ -6,7 +6,7 @@
 
 **Description:**
 
-This app removes a face mask from an image of a person wearing it. Technically, it replaces the bottom half of the person's face and replaces it with the face of another person.
+This app removes a face mask from an image of a person wearing it. Technically, it replaces the bottom half of the face with the face of another person.
 
 1. detects a face from an image using the pretrained Pytorch face detection model (MTCNN) from https://github.com/timesler/facenet-pytorch. 
 2. replaces the bottom half of the face(face mask portion) with an image of a random person using GAN from [https://github.com/zsyzzsoft/co-mod-gan](https://github.com/KYM384/co-mod-gan-pytorch). 
