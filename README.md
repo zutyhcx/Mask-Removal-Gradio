@@ -2,7 +2,7 @@
 
 日本語の説明: https://github.com/rtorii/Mask-Removal/blob/main/README_ja.md
 
-Link to the app: https://mask-352905.an.r.appspot.com/
+**Note:** I originally deployed the app on Google App Engine, but since it costs about $20 / month, the app is currently disabled.
 
 **Description:**
 
