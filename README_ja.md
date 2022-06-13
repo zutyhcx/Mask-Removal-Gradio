@@ -1,12 +1,14 @@
 # マスク除去 (Python)
 
-アプリのリンク：https://mask-352905.an.r.appspot.com/
+
+
+
 
 **説明:**
 
-マスクをしている人の画像からマスクを除去するプログラムです。厳密に言えば、顔の下半分を他人の顔画像に置き換えるWebアプリです。そのため、マスクをしているしていないにかかわらず、顔の下半分を他人の顔画像に置き換えます。アプリは、Google App Engineで公開しています。
+マスクをしている人の画像からマスクを除去するプログラムです。厳密に言えば、顔の下半分を他人の顔画像に置き換えるWebアプリです。そのため、マスクをしているしていないにかかわらず、顔の下半分を他人の顔画像に置き換えます。
 
-
+Streamline CloudとHerokuにアプリをデプロイすることを試しましたが、モデルとインストールするライブラリ（特にPyTorch）の容量が大きいためできませんでした。最終的にGoogle App Engineにデプロイしていましたが、ひと月に2000円ほどかかる為、現在はアプリを無効にしています。
 
 **アプリがすること：**
 
@@ -18,6 +20,10 @@
 
 https://user-images.githubusercontent.com/52717342/166864383-f79315c0-e774-43af-b199-736400c56187.mov
 
+
+**アプリをローカルで実行する際の注意点：**
+
+アプリを実行する前に、GANの学習済みモデル（`co-mod-gan-ffhq-9-025000_net_G_ema.pth`）を[こちら](https://maildluteducn-my.sharepoint.com/:u:/g/personal/zengyu_mail_dlut_edu_cn/Ee1YPJG2Y7NDnUjJBf-SipoBBSlbv8QfFy6K7lsiiiiFHg?download=1)からダウンロードし、`app.py`と同じディレクトリーに保存してください。
 
 **アプリの使い方:**
 1. アプリを開き、`START`ボタンを押します。
@@ -31,9 +37,5 @@ https://user-images.githubusercontent.com/52717342/166864383-f79315c0-e774-43af-
 もし下記のようなエラーが出た場合、ブラウザーをリフレッシュしてください。このエラーはネットワーク速度などの理由で、ウェブカメラの映像を読み込む際に使用するstreamlit_webrtcをローディングできないときに表示されます。
 
 <img width="692" alt="Screen Shot 2022-06-10 at 16 16 03" src="https://user-images.githubusercontent.com/52717342/173049060-ba300862-782a-4e19-a965-abbcd7526a1e.png">
-
-**アプリをローカルで実行する際の注意点：**
-
-アプリを実行する前に、GANの学習済みモデル（`co-mod-gan-ffhq-9-025000_net_G_ema.pth`）を[こちら](https://maildluteducn-my.sharepoint.com/:u:/g/personal/zengyu_mail_dlut_edu_cn/Ee1YPJG2Y7NDnUjJBf-SipoBBSlbv8QfFy6K7lsiiiiFHg?download=1)からダウンロードし、`app.py`と同じディレクトリーに保存してください。
 
 05/04/22にチームUUUによって作成。
