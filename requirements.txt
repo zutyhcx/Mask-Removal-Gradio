@@ -9,7 +9,7 @@ scipy==1.7.3 # 1.8.1 util/visualizer.py **
 tensorflow-cpu==2.7.0 # ==2.7.0 util/visualizer.py
 facenet_pytorch==2.5.2 # cam_comodgan_pytorch.py  **
 streamlit==1.10.0 # cam_comodgan_pytorch.py **
-torchvision==0.12.0 # cam_comodgan_pytorch.py  **
+torchvision==0.12.0+cpu # cam_comodgan_pytorch.py  **
 # options # ==1.4.10 train.py
 # tqdm==4.64.0 # test.py
 # data==0.4 # train.py
