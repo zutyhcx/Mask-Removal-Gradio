@@ -44,8 +44,8 @@ opt = Options()
 
 @st.cache(allow_output_mutation=True)
 def get_model():
-    return torch.load("co-mod-gan-ffhq-9-025000_net_G_ema.pth", map_location="cpu")
-    # return torch.utils.model_zoo.load_url('https://streamlithonyakudata.s3.ap-northeast-1.amazonaws.com/temp.pth', model_dir=None, map_location="cpu")
+    # return torch.load("co-mod-gan-ffhq-9-025000_net_G_ema.pth", map_location="cpu")
+    return torch.utils.model_zoo.load_url('https://streamlithonyakudata.s3.ap-northeast-1.amazonaws.com/temp.pth', model_dir=None, map_location="cpu")
 
 
 netG_ema = Generator(opt)
