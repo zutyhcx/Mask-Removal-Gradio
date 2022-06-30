@@ -10,7 +10,7 @@
 
 Streamlitを使用し、Webアプリ化しました。その後Streamlit CloudとHerokuにアプリをデプロイすることを試しましたが、モデルとインストールするライブラリ（特にPyTorch）の容量が大きいためできませんでした。Google App Engineにデプロイできましたが、１ヶ月に2000円ほどかかる為、現在はアプリをデプロイしていません。
 
-**プログラムの手順：** https://scrumsign.com/untitled
+**プログラムの手順**は[https://scrumsign.com/untitled](https://scrumsign.com/untitled)の```UUUトリプルユー```と書いているセクションをご覧ください。
 
 https://user-images.githubusercontent.com/52717342/166864383-f79315c0-e774-43af-b199-736400c56187.mov
 
